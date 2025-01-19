@@ -1,4 +1,4 @@
-# Aniversário de 2 anos de Namoro ❤️
+# Aniversário de 1 ano de Namoro ❤️
 
 ## Descrição
 Este é um projeto comemorativo para celebrar os 1 ano de namoro com minha namorada. Foi desenvolvido usando HTML e CSS e Javascript e inclui imagens e mídia de áudio para tornar a experiência mais especial. 🎉
