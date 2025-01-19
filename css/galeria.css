@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(images/jpeg-optimizer_blue-smoke-background-textured-wallpaper-high-resolution.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'Krona One', cursive;
+    color: #A7DBE6;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+.audio-player {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.back-arrow {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.back-arrow img {
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
+    transition: filter 0.3s ease, transform 0.3s ease;
+    transform: scaleX(-1);
+}
+
+.back-arrow img:hover {
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.7));
+    transform: scaleX(-1) scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+.btn-navegacao {
+    display: none; 
+}
+
+
+@media (max-width: 768px) {
+    .back-arrow {
+        display: none; 
+    }
+
+    
+    .btn-navegacao {
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: #A7DBE6;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 300px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-navegacao:hover {
+        background-color: #0a1737; 
+    }
+}
